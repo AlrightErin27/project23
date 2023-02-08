@@ -13,6 +13,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 1rem;
+}
+.window-side {
+  border: 1px solid black;
+  height: 52vh;
+  width: 5.5vw;
 }
 .window-glass {
   background-image: url(../../imgs/space.jpeg);
@@ -29,7 +35,7 @@
   align-items: center;
   gap: 2rem;
 }
-.quadrant {
+.quad-container {
   height: 35vh;
   width: 30vw;
   border: 1px solid black;

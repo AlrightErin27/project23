@@ -7,7 +7,6 @@ function console() {
   return (
     <div className="console">
       <Window />
-
       <Desk />
     </div>
   );

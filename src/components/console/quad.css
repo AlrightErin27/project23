@@ -1,0 +1,21 @@
+.quad {
+  height: 100%;
+  width: 100%;
+}
+#quad-0 {
+  background-color: green;
+  display: flex;
+}
+#quad-1 {
+  background-color: rgb(85, 199, 85);
+  display: flex;
+  gap: 3rem;
+}
+.quad1-btn {
+  height: 2rem;
+  width: 2rem;
+}
+#quad-2 {
+  background-color: rgb(196, 243, 196);
+  display: flex;
+}
