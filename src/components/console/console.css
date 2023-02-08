@@ -1,0 +1,36 @@
+.console {
+  height: 10rem;
+  width: 10rem;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+.window {
+  width: 100vw;
+  height: 60vh;
+  background-color: rgba(128, 128, 128, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.window-glass {
+  background-image: url(../../imgs/space.jpeg);
+  height: 52vh;
+  width: 85vw;
+  border-radius: 20px;
+}
+.desk {
+  width: 100vw;
+  height: 40vh;
+  background-color: rgba(128, 128, 128, 0.851);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.quadrant {
+  height: 35vh;
+  width: 30vw;
+  border: 1px solid black;
+}
